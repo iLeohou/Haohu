@@ -2,7 +2,7 @@ const Haohu = require('../index');
 const app = Haohu();
 
 app.get('/', (req, res) => {
-    res.end("667ss")
+    res.end("667sss")
 })
 
 app.listen(3000, () => {
