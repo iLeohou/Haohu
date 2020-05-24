@@ -2,7 +2,7 @@ const Haohu = require('../index');
 const app = Haohu();
 
 app.get('/', (req, res, next) => {
-    next();
+    next(new Error("error"));
 })
 .get('/', (req, res, next) => {
     res.send("666")
